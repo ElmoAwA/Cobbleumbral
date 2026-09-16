@@ -1,190 +1,245 @@
 {
   "version": "1.21.1",
-  "loader": {
-    "type": "fabric",
-    "version": "0.16.5"
-  },
-  "java": {
-    "version": "21"
-  },
-  "server": {
-    "ip": "play.cobbleumbral.fun",
-    "port": 25565
-  },
   "files": [
     {
-      "path": "mods/accessories-fabric-1.1.0-beta.53+1.21.1.jar",
+      "name": "accessories-fabric-1.1.0-beta.53+1.21.1.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/accessories-fabric-1.1.0-beta.53%2B1.21.1.jar",
       "sha1": "fa0b11de088893bb14aff945d0e8efdee165457b",
-      "size": 1095802
+      "size": 1095802,
+      "type": "OTHER"
     },
     {
-      "path": "mods/architectury-13.0.8-fabric.jar",
+      "name": "architectury-13.0.8-fabric.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/architectury-13.0.8-fabric.jar",
       "sha1": "e71346a43c563e5784580dd096338acfb45f49d4",
-      "size": 600915
+      "size": 600915,
+      "type": "OTHER"
     },
     {
-      "path": "mods/cloth-config-15.0.140-fabric.jar",
+      "name": "cloth-config-15.0.140-fabric.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/cloth-config-15.0.140-fabric.jar",
       "sha1": "5d82342a2df53fd6df712bfdd583a811572918a4",
-      "size": 1157166
+      "size": 1157166,
+      "type": "OTHER"
     },
     {
-      "path": "mods/Cobblemon-fabric-1.7.3+1.21.1.jar",
+      "name": "Cobblemon-fabric-1.7.3+1.21.1.jar",
+      "path": "mods/",
       "url": "https://github.com/ElmoAwA/Cobbleumbral/releases/download/v1.0.0/Cobblemon-fabric-1.7.3+1.21.1.jar",
       "sha1": "f192cda3fdfec0f20d1dee1887ec1b9e77b1618c",
-      "size": 135801550
+      "size": 135801550,
+      "type": "OTHER"
     },
     {
-      "path": "mods/Cobblemon-mount-mastery-0.2.2.jar",
+      "name": "Cobblemon-mount-mastery-0.2.2.jar",
+      "path": "mods/",
       "url": "https://github.com/ElmoAwA/Cobbleumbral/releases/download/v1.0.0/Cobblemon-fabric-1.7.3+1.21.1.jar",
       "sha1": "ba315c02d93109a30f9d445bed4d39db02d5ffed",
-      "size": 566132
+      "size": 566132,
+      "type": "OTHER"
     },
     {
-      "path": "mods/Cobblemon-Utility+-fabric-1.7.4.jar",
+      "name": "Cobblemon-Utility+-fabric-1.7.4.jar",
+      "path": "mods/",
       "url": "https://github.com/ElmoAwA/Cobbleumbral/releases/download/v1.0.0/Cobblemon-fabric-1.7.3+1.21.1.jar",
       "sha1": "cf99342e1ea0f57259b843be76249f189fb5df25",
-      "size": 180197
+      "size": 180197,
+      "type": "OTHER"
     },
     {
-      "path": "mods/cobblemonraiddens-fabric-0.11.3+1.21.1.jar",
+      "name": "cobblemonraiddens-fabric-0.11.3+1.21.1.jar",
+      "path": "mods/",
       "url": "https://github.com/ElmoAwA/Cobbleumbral/releases/download/v1.0.0/Cobblemon-fabric-1.7.3+1.21.1.jar",
       "sha1": "d3a3c5634ae9821259be71dfccfd2b40d8df5410",
-      "size": 2690197
+      "size": 2690197,
+      "type": "OTHER"
     },
     {
-      "path": "mods/CobblemonTrialsEdition-fabric-2.1.0.jar",
+      "name": "CobblemonTrialsEdition-fabric-2.1.0.jar",
+      "path": "mods/",
       "url": "https://github.com/ElmoAwA/Cobbleumbral/releases/download/v1.0.0/Cobblemon-fabric-1.7.3+1.21.1.jar",
       "sha1": "41daf3267c07b9d8e1e9fe65d83d7ccf7a668fc7",
-      "size": 273309
+      "size": 273309,
+      "type": "OTHER"
     },
     {
-      "path": "mods/Cobbreeding-fabric-2.2.2.jar",
+      "name": "Cobbreeding-fabric-2.2.2.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/Cobbreeding-fabric-2.2.2.jar",
       "sha1": "0bd4a004af1de1d0929dfd295db044c365351153",
-      "size": 475560
+      "size": 475560,
+      "type": "OTHER"
     },
     {
-      "path": "mods/fabric-api-0.116.14+1.21.1.jar",
+      "name": "fabric-api-0.116.14+1.21.1.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/fabric-api-0.116.14%2B1.21.1.jar",
       "sha1": "1bc9caf399a9eadddaec3215e31594ca40fc9485",
-      "size": 2451978
+      "size": 2451978,
+      "type": "OTHER"
     },
     {
-      "path": "mods/fightorflight-fabric-0.10.9.jar",
+      "name": "fightorflight-fabric-0.10.9.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/fightorflight-fabric-0.10.9.jar",
       "sha1": "9928e06e1ebe166980480b073cea542eed753d73",
-      "size": 1424525
+      "size": 1424525,
+      "type": "OTHER"
     },
     {
-      "path": "mods/fireworkcapsules-fabric-2.1.3+1.21.1.jar",
+      "name": "fireworkcapsules-fabric-2.1.3+1.21.1.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/fireworkcapsules-fabric-2.1.3%2B1.21.1.jar",
       "sha1": "42da4fa9c5bbaa5cd4b84e7e8e8ee2846c76a04b",
-      "size": 341526
+      "size": 341526,
+      "type": "OTHER"
     },
     {
-      "path": "mods/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+      "name": "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
       "sha1": "18bf1f21cd2db6dcd4e42db85eae54e2a49a48ee",
-      "size": 633065
+      "size": 633065,
+      "type": "OTHER"
     },
     {
-      "path": "mods/geckolib-fabric-1.21.1-4.9.2.jar",
+      "name": "geckolib-fabric-1.21.1-4.9.2.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/geckolib-fabric-1.21.1-4.9.2.jar",
       "sha1": "b95b1d631baeada54c6773ca8f6ede40d57fea46",
-      "size": 660416
+      "size": 660416,
+      "type": "OTHER"
     },
     {
-      "path": "mods/generar-json.js",
-      "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/generar-json.js",
-      "sha1": "7f9e9f1719de4f5ff1c7a61271671be90c0d7502",
-      "size": 1328
-    },
-    {
-      "path": "mods/iris-fabric-1.8.8+mc1.21.1.jar",
+      "name": "iris-fabric-1.8.8+mc1.21.1.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/iris-fabric-1.8.8%2Bmc1.21.1.jar",
       "sha1": "4e0df4011503b4b36ba69877ea7247c1a47fea00",
-      "size": 2690177
+      "size": 2690177,
+      "type": "OTHER"
     },
     {
-      "path": "mods/Jade-1.21.1-Fabric-15.10.5.jar",
+      "name": "Jade-1.21.1-Fabric-15.10.5.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/Jade-1.21.1-Fabric-15.10.5.jar",
       "sha1": "ec3bf463b891c2b2400ed5bb01c0b3d67de4170a",
-      "size": 739009
+      "size": 739009,
+      "type": "OTHER"
     },
     {
-      "path": "mods/jei-1.21.1-fabric-19.42.0.385.jar",
+      "name": "jei-1.21.1-fabric-19.42.0.385.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/jei-1.21.1-fabric-19.42.0.385.jar",
       "sha1": "b9b97b3f2cbd732244d976f90d1db3e82b4eab1d",
-      "size": 1682806
+      "size": 1682806,
+      "type": "OTHER"
     },
     {
-      "path": "mods/lootr-fabric-1.21.1-1.11.38.124.jar",
+      "name": "lootr-fabric-1.21.1-1.11.38.124.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/lootr-fabric-1.21.1-1.11.38.124.jar",
       "sha1": "6b37bc058625d35863145c54ead47d34a7059c4a",
-      "size": 1036841
+      "size": 1036841,
+      "type": "OTHER"
     },
     {
-      "path": "mods/lootrmon-fabric-1.21.1-0.0.0.1.jar",
+      "name": "lootrmon-fabric-1.21.1-0.0.0.1.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/lootrmon-fabric-1.21.1-0.0.0.1.jar",
       "sha1": "140d8d8dd08261eb5f1b3e835f6848ca710c3f5a",
-      "size": 118905
+      "size": 118905,
+      "type": "OTHER"
     },
     {
-      "path": "mods/mega_showdown-fabric-1.9.5+1.7.3+1.21.1.jar",
+      "name": "mega_showdown-fabric-1.9.5+1.7.3+1.21.1.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/mega_showdown-fabric-1.9.5%2B1.7.3%2B1.21.1.jar",
       "sha1": "04e97a0187c788c4b28a72af6ecd877bdbcb7224",
-      "size": 20085492
+      "size": 20085492,
+      "type": "OTHER"
     },
     {
-      "path": "mods/owo-lib-0.12.15.4+1.21.jar",
+      "name": "owo-lib-0.12.15.4+1.21.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/owo-lib-0.12.15.4%2B1.21.jar",
       "sha1": "45725e6d33b624e565a7a6e5d3627af40814288d",
-      "size": 1183559
+      "size": 1183559,
+      "type": "OTHER"
     },
     {
-      "path": "mods/plasmovoice-fabric-1.21.1-2.1.15.jar",
+      "name": "plasmovoice-fabric-1.21.1-2.1.15.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/plasmovoice-fabric-1.21.1-2.1.15.jar",
       "sha1": "a9f0398a5f4a37fa692abb471a84956f2150c9a8",
-      "size": 12353125
+      "size": 12353125,
+      "type": "OTHER"
     },
     {
-      "path": "mods/pokeviewapi-client-0.1.0.jar",
+      "name": "pokeviewapi-client-0.1.0.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/pokeviewapi-client-0.1.0.jar",
       "sha1": "47b3d79971d81958897882d7efe343a453a51236",
-      "size": 40963
+      "size": 40963,
+      "type": "OTHER"
     },
     {
-      "path": "mods/SimpleTMs-fabric-2.3.3.jar",
+      "name": "SimpleTMs-fabric-2.3.3.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/SimpleTMs-fabric-2.3.3.jar",
       "sha1": "3433763bf6e20639213fd31a45da187968e61ffe",
-      "size": 821382
+      "size": 821382,
+      "type": "OTHER"
     },
     {
-      "path": "mods/sodium-extra-fabric-0.6.0+mc1.21.1.jar",
+      "name": "sodium-extra-fabric-0.6.0+mc1.21.1.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/sodium-extra-fabric-0.6.0%2Bmc1.21.1.jar",
       "sha1": "66160fac4fdb9ddd854c5ed068fc329d24d09fd1",
-      "size": 373661
+      "size": 373661,
+      "type": "OTHER"
     },
     {
-      "path": "mods/sodium-fabric-0.6.13+mc1.21.1.jar",
+      "name": "sodium-fabric-0.6.13+mc1.21.1.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/sodium-fabric-0.6.13%2Bmc1.21.1.jar",
       "sha1": "928a2598178c3a58b0638bab842f467d2e49251a",
-      "size": 1297761
+      "size": 1297761,
+      "type": "OTHER"
     },
     {
-      "path": "mods/xaerominimap-fabric-1.21.1-25.3.10.jar",
+      "name": "xaerominimap-fabric-1.21.1-25.3.10.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/xaerominimap-fabric-1.21.1-25.3.10.jar",
       "sha1": "a231fa03625036fb8118a1a5981f22eac54c3597",
-      "size": 2177333
+      "size": 2177333,
+      "type": "OTHER"
     },
     {
-      "path": "mods/xaeroworldmap-fabric-1.21.1-1.40.11.jar",
+      "name": "xaeroworldmap-fabric-1.21.1-1.40.11.jar",
+      "path": "mods/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/xaeroworldmap-fabric-1.21.1-1.40.11.jar",
       "sha1": "879469ab8b697796219254a097d00ff48cabf3c5",
-      "size": 1413973
+      "size": 1413973,
+      "type": "OTHER"
+    },
+    {
+      "name": ".gitkeep",
+      "path": "resourcepacks/",
+      "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/resourcepacks/.gitkeep",
+      "sha1": "ba8ab5a0280b953aa97435ff8946cbcbb2755a27",
+      "size": 2,
+      "type": "OTHER"
+    },
+    {
+      "name": "ATM x MSD [v4.0].zip",
+      "path": "resourcepacks/",
+      "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/resourcepacks/ATM%20x%20MSD%20%5Bv4.0%5D.zip",
+      "sha1": "05d411776564ec96934a3e5b7ed8aca8e3df780a",
+      "size": 8115647,
+      "type": "OTHER"
     }
   ]
 }
