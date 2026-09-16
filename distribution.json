@@ -226,14 +226,6 @@
       "type": "OTHER"
     },
     {
-      "name": ".gitkeep",
-      "path": "resourcepacks/",
-      "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/resourcepacks/.gitkeep",
-      "sha1": "ba8ab5a0280b953aa97435ff8946cbcbb2755a27",
-      "size": 2,
-      "type": "OTHER"
-    },
-    {
       "name": "ATM x MSD [v4.0].zip",
       "path": "resourcepacks/",
       "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/resourcepacks/ATM%20x%20MSD%20%5Bv4.0%5D.zip",
