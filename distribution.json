@@ -28,7 +28,7 @@
     {
       "name": "Cobblemon-fabric-1.7.3+1.21.1.jar",
       "path": "mods/",
-      "url": "https://github.com/ElmoAwA/Cobbleumbral/releases/download/v1.0.0/Cobblemon-fabric-1.7.3+1.21.1.jar",
+      "url": "https://github.com/ElmoAwA/Cobbleumbral/releases/download/1.0/Cobblemon-fabric-1.7.3+1.21.1.jar",
       "sha1": "f192cda3fdfec0f20d1dee1887ec1b9e77b1618c",
       "size": 135801550,
       "type": "OTHER"
@@ -36,7 +36,7 @@
     {
       "name": "Cobblemon-mount-mastery-0.2.2.jar",
       "path": "mods/",
-      "url": "https://github.com/ElmoAwA/Cobbleumbral/releases/download/v1.0.0/Cobblemon-fabric-1.7.3+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/Cobblemon-mount-mastery-0.2.2.jar",
       "sha1": "ba315c02d93109a30f9d445bed4d39db02d5ffed",
       "size": 566132,
       "type": "OTHER"
@@ -44,7 +44,7 @@
     {
       "name": "Cobblemon-Utility+-fabric-1.7.4.jar",
       "path": "mods/",
-      "url": "https://github.com/ElmoAwA/Cobbleumbral/releases/download/v1.0.0/Cobblemon-fabric-1.7.3+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/Cobblemon-Utility%2B-fabric-1.7.4.jar",
       "sha1": "cf99342e1ea0f57259b843be76249f189fb5df25",
       "size": 180197,
       "type": "OTHER"
@@ -52,7 +52,7 @@
     {
       "name": "cobblemonraiddens-fabric-0.11.3+1.21.1.jar",
       "path": "mods/",
-      "url": "https://github.com/ElmoAwA/Cobbleumbral/releases/download/v1.0.0/Cobblemon-fabric-1.7.3+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/cobblemonraiddens-fabric-0.11.3%2B1.21.1.jar",
       "sha1": "d3a3c5634ae9821259be71dfccfd2b40d8df5410",
       "size": 2690197,
       "type": "OTHER"
@@ -60,7 +60,7 @@
     {
       "name": "CobblemonTrialsEdition-fabric-2.1.0.jar",
       "path": "mods/",
-      "url": "https://github.com/ElmoAwA/Cobbleumbral/releases/download/v1.0.0/Cobblemon-fabric-1.7.3+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/ElmoAwA/Cobbleumbral/main/mods/CobblemonTrialsEdition-fabric-2.1.0.jar",
       "sha1": "41daf3267c07b9d8e1e9fe65d83d7ccf7a668fc7",
       "size": 273309,
       "type": "OTHER"
