@@ -26,6 +26,14 @@
       "type": "OTHER"
     },
     {
+      "name": "cobblemon-battle-extras-fabric-1.13.45.jar",
+      "path": "mods/",
+      "url": "https://launcher.cobbleumbral.fun/mods/cobblemon-battle-extras-fabric-1.13.45.jar",
+      "sha1": "8d56d3e943d20f9d22be32e9a9dee5851eb7f654",
+      "size": 1515972,
+      "type": "OTHER"
+    },
+    {
       "name": "Cobblemon-fabric-1.7.3+1.21.1.jar",
       "path": "mods/",
       "url": "https://github.com/ElmoAwA/Cobbleumbral/releases/download/1.0/Cobblemon-fabric-1.7.3+1.21.1.jar",
@@ -207,6 +215,14 @@
       "url": "https://launcher.cobbleumbral.fun/mods/sodium-fabric-0.6.13%2Bmc1.21.1.jar",
       "sha1": "928a2598178c3a58b0638bab842f467d2e49251a",
       "size": 1297761,
+      "type": "OTHER"
+    },
+    {
+      "name": "xaerominimap-fabric-1.21.1-26.5.0.jar",
+      "path": "mods/",
+      "url": "https://launcher.cobbleumbral.fun/mods/xaerominimap-fabric-1.21.1-26.5.0.jar",
+      "sha1": "b9cec1acb286b6d7c05759c0c1e4b8a04f28d785",
+      "size": 2233763,
       "type": "OTHER"
     },
     {
