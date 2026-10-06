@@ -26,6 +26,14 @@
       "type": "OTHER"
     },
     {
+      "name": "cajasumbral-1.0.0-publico.jar",
+      "path": "mods/",
+      "url": "https://launcher.cobbleumbral.fun/mods/cajasumbral-1.0.0-publico.jar",
+      "sha1": "80ad8c550ecb8ec4331a198c8d06f9e4e7c0fd42",
+      "size": 115325,
+      "type": "OTHER"
+    },
+    {
       "name": "cloth-config-15.0.140-fabric.jar",
       "path": "mods/",
       "url": "https://launcher.cobbleumbral.fun/mods/cloth-config-15.0.140-fabric.jar",
@@ -151,6 +159,22 @@
       "url": "https://launcher.cobbleumbral.fun/mods/jei-1.21.1-fabric-19.42.0.385.jar",
       "sha1": "b9b97b3f2cbd732244d976f90d1db3e82b4eab1d",
       "size": 1682806,
+      "type": "OTHER"
+    },
+    {
+      "name": "lambdynamiclights-4.8.11+1.21.1.jar",
+      "path": "mods/",
+      "url": "https://launcher.cobbleumbral.fun/mods/lambdynamiclights-4.8.11%2B1.21.1.jar",
+      "sha1": "7b5afc75a094b4e8a7118f9856eec959b10f2422",
+      "size": 2023375,
+      "type": "OTHER"
+    },
+    {
+      "name": "logical_zoom-0.0.26.jar",
+      "path": "mods/",
+      "url": "https://launcher.cobbleumbral.fun/mods/logical_zoom-0.0.26.jar",
+      "sha1": "a37da986e20153a649b0be461c940fe1e9c96a83",
+      "size": 118999,
       "type": "OTHER"
     },
     {
