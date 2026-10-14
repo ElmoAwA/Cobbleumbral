@@ -1,0 +1,458 @@
+#{quest_daily_amount} {quest_daily_progress} {quest_daily_name}
+# =====================================================================
+#  COBBLEPASE — SEASON 2: HALLOWEEN UMBRAL  ☠
+#  Paleta: &6 naranja calabaza · &5/&d violeta embrujado · &8 negro noche
+# =====================================================================
+
+
+battlepass_shop:
+  title: "&6☠ &lCobblepase &8» &5Dulcería"
+  rows: 6
+  # slots donde van los ítems de la tienda
+  slots_shop: [10,11,12,13,14,15,16,19,20,21,22,23,24,25,28,29,30,31,32,33,34]
+
+  items:
+
+    # botón volver al menú principal
+    back_to_menu:
+      id: "BARRIER"
+      customModelData: 8303
+      slot: 49
+      display: "&c⮜ &lVolver al Menú"
+      lore:
+        - ""
+        - "&7Regresa al menú principal del Pase."
+        - ""
+
+    # botón página anterior
+    back:
+      id: "ARROW"
+      customModelData: 8301
+      slot: 48
+      display: "&6« &lPágina Anterior"
+      lore:
+        - ""
+        - "&7Página: &f{page}&8/&f{max_page}"
+        - "&5Click para retroceder"
+
+    # botón página siguiente
+    next:
+      id: "ARROW"
+      customModelData: 8302
+      slot: 50
+      display: "&6&lPágina Siguiente &6»"
+      lore:
+        - ""
+        - "&7Página: &f{page}&8/&f{max_page}"
+        - "&5Click para avanzar"
+
+    # ítem cuando no hay nada
+    empty:
+      id: "COBWEB"
+      display: "&8✖ &7&lTienda Vacía"
+      lore:
+        - ""
+        - "&8Solo telarañas por aquí..."
+        - "&8No hay ítems disponibles."
+        - ""
+
+    # modelo del ítem de la tienda (IMPORTANTE)
+    shop_item:
+      lore:
+        - ""
+        - "&7Precio: &6{points} puntos"
+        - ""
+        - "&5☽ &dClick para comprar"
+
+
+
+battlepass_top:
+  title: "&6☠ &lCobblepase &8» &5Ranking"
+  rows: 6
+  ranking_slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25]
+
+  items:
+    category:
+      slot: 50
+      id: HOPPER
+      customModelData: 8306
+      display: "&6&lCategoría"
+      lore:
+        - ""
+        - "{categorys}"
+        - ""
+        - "&5Click para cambiar."
+      category:
+        select: "&6▶ {select} &6◀"
+        LEVEL: "&7🏆 Top Nivel"
+        QUEST: "&7📜 Top Misiones"
+
+    close:
+      slot: 49
+      id: BARRIER
+      customModelData: 8303
+      display: "&c&lCerrar"
+      lore:
+        - "&7Volver al menú principal."
+
+    info:
+      slot: 48
+      id: SOUL_LANTERN
+      display: "&5&l☽ Información"
+      lore:
+        - ""
+        - "&7El &6ranking &7se actualiza"
+        - "&7solo cada &65 minutos&7."
+        - ""
+        - "&8Las almas más fuertes de Umbral"
+        - "&8quedan grabadas aquí..."
+
+    top_entry_level:
+      id: PLAYER_HEAD
+      display: "&6#{position} &e{player}"
+      lore:
+        - ""
+        - "&7Tipo&8: &f{type}"
+        - "&7Valor&8: &6{value}"
+        - ""
+        - "  &8(&5Nivel: &d{level} &8| &5XP: &d{xp}&8)"
+        - ""
+
+    top_entry_quest:
+      id: PLAYER_HEAD
+      display: "&6#{position} &e{player}"
+      lore:
+        - ""
+        - "&7Tipo&8: &f{type}"
+        - "&7Misiones completadas&8: &6{value}"
+        - ""
+        - ""
+
+    top_empty:
+      id: 'PLAYER_HEAD'
+      texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+      display: "&8#&7{position} &8☠ Vacío"
+      lore:
+        - "&8Esta tumba todavía no tiene dueño."
+
+
+battlepass_rewards:
+  title: '&6☠ &lCobblepase &8» &5Botín'
+  rows: 6
+  slots_free: [10,11,12,13,14,15,16]
+  slots_paid: [28,29,30,31,32,33,34]
+  progress_slot: [19,20,21,22,23,24,25]
+  items:
+    noRewardItem:
+      id: 'BARRIER'
+      display: '&8Sin recompensa'
+    border_items2:
+      id: 'black_stained_glass_pane'
+      display: ' '
+      slot: [0,1,2,3,4,5,6,7,8,18,26,36,37,38,39,40,41,42,43,44,45,46,47,51,52,53]
+    # Marcadores a los costados de cada fila (decorativos)
+    marcador_gratis:
+      id: "cobblemon:poke_ball"
+      slot: [9, 17]
+      display: "&f&l● Pase Gratis"
+      lore:
+        - ""
+        - "&7Recompensas para &ftodos &7los jugadores."
+        - "&7Se desbloquean subiendo de nivel."
+        - ""
+    marcador_premium:
+      id: "cobblemon:master_ball"
+      slot: [27, 35]
+      display: "&d&l✦ Pase Premium"
+      lore:
+        - ""
+        - "&7Recompensas &dexclusivas &7del Pase Premium:"
+        - "&7skins, Pokécoins y Pokémon &d6x31&7."
+        - ""
+        - "&6☠ &eConsíguelo en la tienda del server."
+    blockedRewardPaid:
+      id: "PLAYER_HEAD"
+      display: "{display}"
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjljYjNkMTlkYjUyOWEyMTVjZjYyNjk3NTkxY2MxM2ZiOGM3ODZhOGYyN2I3NTI4YzMyYWMyOTg2Yjk2NzBjNCJ9fX0="
+      lore:
+        - ""
+        - "&6&l☠ Recompensa Premium sellada"
+        - ""
+        - "&5⬥ &dNivel requerido: &6{level}"
+        - "&5⬥ &dRecompensas:"
+        - "{rewards}"
+        - ""
+        - "{collect}"
+        - ""
+    blockedReward:
+      id: "PLAYER_HEAD"
+      display: "{display}"
+      texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY5M2VkM2YxOTY4NzYxMTNiMmU3NDYwOTMzNDkzYjgxZGE5MWI4ZjM0ZGIzYzUyODhhNjllZWI5NmRlNDBmYiJ9fX0='
+      customModelData: 3
+      lore:
+        - ""
+        - "&7Alcanza el &6Nivel {level} &7para"
+        - "&7reclamar este botín."
+        - ""
+        - "&5⬥ &dRecompensas:"
+        - "{rewards}"
+        - ""
+        - "{collect}"
+        - ""
+    collectReward:
+      id: "JACK_O_LANTERN"
+      display: "&6✔ &lReclamado"
+      lore:
+        - "&7Ya te llevaste este botín."
+    skipItem:
+      id: "COBWEB"
+      display: "&8✖ &7&lSin recompensa"
+      lore:
+        - "&8Solo telarañas..."
+    progress_locked:
+      id: "PURPLE_STAINED_GLASS_PANE"
+      customModelData: 8305
+      data: 14
+      display: "&5🔒 Etapa sellada"
+    progress_unlocked:
+      id: "ORANGE_STAINED_GLASS_PANE"
+      customModelData: 8304
+      data: 5
+      display: "&6✅ Etapa desbloqueada"
+    back_to_menu:
+      id: "BARRIER"
+      customModelData: 8303
+      slot: 49
+      display: "&c⮜ &lVolver al Menú"
+      lore:
+        - ""
+        - "&7Regresa al menú principal del Pase."
+        - ""
+    back:
+      id: "ARROW"
+      customModelData: 8301
+      slot: 48
+      display: "&6« &lPágina Anterior"
+      lore:
+        - "&7Volver a las recompensas anteriores."
+    next:
+      id: "ARROW"
+      customModelData: 8302
+      slot: 50
+      display: "&6&lPágina Siguiente &6»"
+      lore:
+        - "&7Ver las próximas recompensas."
+
+
+battlepass_quest:
+  # ──────────────── MENÚ PRINCIPAL ────────────────
+  title: "&6☠ &lCobblepase &8» &5Misiones"
+  rows: 6
+
+  # Slots donde se muestran las misiones
+  slots_mission: [10, 11, 12, 13, 14, 15,16,19,20,21,22,23,24,25,28,29,30,31,32,33,34]
+
+  # ──────────────── CATEGORÍAS ────────────────
+  category:
+    select: " &8» &6{select}"
+    daily: " &6• &fMisiones &6Diarias"
+    weekly: " &5• &fMisiones &5Semanales"
+    permanent: " &d• &fMisiones &dde Temporada"
+
+  # ──────────────── ÍTEMS FIJOS ────────────────
+  items:
+    next:
+      slot: 53
+      id: "ARROW"
+      customModelData: 8302
+      display: "&6Página Siguiente ⟩"
+      lore:
+        - ""
+        - "&7Página: &f{page}&8/&f{max_page}"
+        - "&5Click para avanzar"
+
+    back:
+      slot: 45
+      id: "ARROW"
+      customModelData: 8301
+      display: "&6⟨ Página Anterior"
+      lore:
+        - ""
+        - "&7Página: &f{page}&8/&f{max_page}"
+        - "&5Click para retroceder"
+    questEmpty:
+      id: 'COBWEB'
+      display: '&8☠ &7&lNo hay misiones aquí'
+      slot: 22
+      lore:
+        - ''
+        - '&8Esta categoría está &cvacía&8... por ahora.'
+        - '&7¡Prueba con otra categoría!'
+        - ''
+
+    # Las misiones se activan solas (PassUmbral); esto casi no se ve.
+    quest_available:
+      id: "BOOK"
+      customModelData: 8307
+      display: "&f{quest_name}"
+      lore:
+        - " {quest_description}"
+        - ""
+        - "&7🏆 &fRecompensa: &6+{xp_gain} XP"
+        - ""
+        - "&5☽ &dSe activa sola en unos segundos..."
+
+    active_quest:
+      id: "WRITABLE_BOOK"
+      customModelData: 8308
+      display: "&l{quest_name}"
+      lore:
+        - ""
+        - "&5❖ &fObjetivos:"
+        - "&8────────────────────────"
+        - ""
+        - " {progress_displays}"
+        - ""
+        - "&7▸ &fProgreso: &6{progress_bar_total}"
+        - "&7🏆 &fRecompensa: &6+{xp_gain} XP"
+        - ""
+        - "&8Estado: &6En curso &8⏳"
+        - "&8━━━━━━━━━━━━━━━━━━━━━━"
+
+
+    completed_quest:
+      id: "CARVED_PUMPKIN"
+      display: "&6✔ &l{quest_name}"
+      lore:
+        - ""
+        - "&5❖ &fDescripción:"
+        - "&8────────────────────────"
+        - "&7{quest_description}"
+        - ""
+        - "&7🏆 &fRecompensa: &6+{xp_gain} XP"
+        - "&7⏳ &fSe reinicia en: &d{quest_reset}"
+        - ""
+        - "&6✓ &f¡Misión &6completada&f!"
+        - "&8━━━━━━━━━━━━━━━━━━━━━━"
+
+    category:
+      slot: 49
+      id: "HOPPER"
+      customModelData: 8306
+      display: "&6&lCategorías"
+      lore:
+        - ""
+        - "&7Categorías disponibles:"
+        - "{categorys}"
+        - ""
+        - "&5Click para cambiar de categoría"
+
+    close:
+      slot: 48
+      id: "BARRIER"
+      customModelData: 8303
+      display: "&c&lCerrar"
+      lore:
+        - ""
+        - "&7Click para cerrar el menú"
+        - "&8━━━━━━━━━━━━━━━━━━━━━━"
+    party_info:
+      slot: 50
+      id: "SKELETON_SKULL"
+      display: "&d&l☠ Aquelarre (Party)"
+      lore:
+        - ""
+        - "&7Arma un &daquelarre &7con tus amigos"
+        - "&7y completen misiones en &fdúo &7o &ftrío&7."
+        - ""
+        - "&7Juntos, los miembros de la party"
+        - "&7ganan mucha más &6XP del pase&7."
+        - ""
+        - "&5Comandos:"
+        - "&f/{user_command} {party_command} {party_create}"
+        - "&f/{user_command} {party_command} {party_invite} <jugador>"
+        - "&f/{user_command} {party_command} {party_accept} &7/ &f{party_reject}"
+        - "&f/{user_command} {party_command} {party_leave}"
+        - "&f/{user_command} {party_command} {party_disband}"
+        - "&f/{user_command} {party_command} {party_kick} <jugador>"
+        - ""
+        - "&8━━━━━━━━━━━━━━━━━━━━━━"
+
+
+
+battlepass_perfil:
+  title: "&6&l☠ Halloween Umbral &6☠"
+  rows: 3
+  items:
+    rewards:
+      slot: 15
+      id: "GRAY_DYE"
+      customModelData: 8310
+      display: "&6&l☠ Botín"
+      lore:
+        - ""
+        - "&5❖ &7Pase Gratis: &6¡Desbloquea botín subiendo de nivel!"
+        - "&5❖ &7Pase Premium: &d¡Recompensas exclusivas y malditas!"
+        - ""
+        - "&8━━━━━━━━━━━━━━━━━━━━━━"
+        - "&7➤ &fClick para &6abrir las recompensas&f."
+    battle_pass_shop:
+      slot: 16
+      id: "GOLD_INGOT"
+      customModelData: 8309
+      display: "&6&lTienda Embrujada"
+      lore:
+        - ""
+        - "&7Mira y compra ítems"
+        - "&7con tus puntos del Pase."
+        - ""
+        - "&5☽ &d¡Click para abrir la tienda!"
+    quests:
+      slot: 14
+      id: 'BOOK'
+      customModelData: 8307
+      display: "&5&l📜 Misiones"
+      lore:
+        - ""
+        - " &5❖ &7Diarias: &6{quest_daily_progress}&8/&6{quest_daily_amount}"
+        - " &5❖ &7Semanales: &d{quest_weekly_progress}&8/&5{quest_weekly_amount}"
+        - " &5❖ &7De Temporada: &e{quest_permanent_progress}&8/&6{quest_permanent_amount}"
+        - ""
+        - "&8Todas tus misiones avanzan solas"
+        - "&8mientras juegas, ¡no hace falta elegirlas!"
+        - ""
+        - "&8━━━━━━━━━━━━━━━━━━━━━━"
+        - "&7➤ &fClick para &5ver tus misiones&f."
+    topranked:
+      slot: 13
+      id: 'PLAYER_HEAD'
+      display: "&6&l🏆 Salón de las Almas"
+      lore:
+        - ""
+        - "&5❖ &7Mira a los jugadores con el"
+        - "&7nivel de &6Pase &7más alto."
+        - ""
+        - "&8⏱ &7Se actualiza cada &65 minutos&7."
+        - ""
+        - "&8━━━━━━━━━━━━━━━━━━━━━━"
+        - "&7➤ &fClick para &6ver el ranking&f."
+    profile:
+      slot: 10
+      id: PLAYER_HEAD
+      display: "&6&l☠ Perfil &8» &e{player} &6☽"
+      lore:
+        - ""
+        - "&5◆ &7Nivel: &6{level} &8/ &e{levelmax}"
+        - "&5◆ &7Experiencia: &6{xp}&8/&e{xp_next}"
+        - "&5◆ &7Progreso: &8[&6{progress_bar}&8] &8(&f{percent}%&8)"
+        - "&5◆ &7Tipo de Pase: &d{typepass}"
+        - "&5◆ &7Bonus de XP: &6{bonus}"
+        - "&5◆ &7Puntos del Pase: &6{player_point}"
+        - ""
+        - "&8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+        - "&7🏆 &fTemporada: &6{season_name}"
+        - "&7⬆ &fNivel de temporada: &6{season_level}"
+        - "&7🕒 &fInicio: &7{season_start}"
+        - "&7⏳ &fFin: &7{season_end}"
+        - "&7⌚ &fTiempo restante: &d{season_remaining}"
+        - ""
