@@ -194,14 +194,6 @@
       "type": "OTHER"
     },
     {
-      "name": "justzoom_fabric_3.0.1_MC_1.21.1.jar",
-      "path": "mods/",
-      "url": "https://launcher.cobbleumbral.fun/mods/justzoom_fabric_3.0.1_MC_1.21.1.jar",
-      "sha1": "a47500421f7328bc4cc8f2ef80fabe76c9d680bd",
-      "size": 336135,
-      "type": "OTHER"
-    },
-    {
       "name": "lambdynamiclights-4.8.11+1.21.1.jar",
       "path": "mods/",
       "url": "https://launcher.cobbleumbral.fun/mods/lambdynamiclights-4.8.11%2B1.21.1.jar",
