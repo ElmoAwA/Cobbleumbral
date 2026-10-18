@@ -42,11 +42,11 @@
       "type": "OTHER"
     },
     {
-      "name": "Cobblemon-fabric-1.8.1+1.21.1.jar",
+      "name": "Cobblemon-fabric-1.8.2+1.21.1.jar",
       "path": "mods/",
-      "url": "https://launcher.cobbleumbral.fun/mods/Cobblemon-fabric-1.8.1%2B1.21.1.jar",
-      "sha1": "ebbf2dad130391cd39c51ffcf83a1b157951e919",
-      "size": 137391338,
+      "url": "https://launcher.cobbleumbral.fun/mods/Cobblemon-fabric-1.8.2%2B1.21.1.jar",
+      "sha1": "1a8ec812b2e7b392ac60801c910d3128d0bbb432",
+      "size": 139317851,
       "type": "OTHER"
     },
     {
@@ -66,6 +66,14 @@
       "type": "OTHER"
     },
     {
+      "name": "cobblemonintegrations-fabric-1.21.1-1.1.8.jar",
+      "path": "mods/",
+      "url": "https://launcher.cobbleumbral.fun/mods/cobblemonintegrations-fabric-1.21.1-1.1.8.jar",
+      "sha1": "b7d37c92ab4958e720657018c58960535ff1335b",
+      "size": 385418,
+      "type": "OTHER"
+    },
+    {
       "name": "CobblemonTrialsEdition-fabric-2.2.0.jar",
       "path": "mods/",
       "url": "https://launcher.cobbleumbral.fun/mods/CobblemonTrialsEdition-fabric-2.2.0.jar",
@@ -74,11 +82,11 @@
       "type": "OTHER"
     },
     {
-      "name": "Cobbreeding-fabric-2.3.0.jar",
+      "name": "Cobbreeding-fabric-2.4.1.jar",
       "path": "mods/",
-      "url": "https://launcher.cobbleumbral.fun/mods/Cobbreeding-fabric-2.3.0.jar",
-      "sha1": "8bf8f20f8c5939395a9fbfda4f8e368b2889ea30",
-      "size": 475711,
+      "url": "https://launcher.cobbleumbral.fun/mods/Cobbreeding-fabric-2.4.1.jar",
+      "sha1": "4de6e86541ab2d94b1327ce68a26771e8f33f030",
+      "size": 477771,
       "type": "OTHER"
     },
     {
@@ -87,6 +95,22 @@
       "url": "https://launcher.cobbleumbral.fun/mods/combatesumbral-torneos-cliente-1.8.0.jar",
       "sha1": "9ee2679c6cb64374d35828948d71c214208e89db",
       "size": 65155,
+      "type": "OTHER"
+    },
+    {
+      "name": "entity_model_features-3.3.11-1.21-fabric.jar",
+      "path": "mods/",
+      "url": "https://launcher.cobbleumbral.fun/mods/entity_model_features-3.3.11-1.21-fabric.jar",
+      "sha1": "484d51ba5c1efcfb511e2f8db7c0974e66d594fb",
+      "size": 652846,
+      "type": "OTHER"
+    },
+    {
+      "name": "entity_texture_features-7.2.5-1.21-fabric.jar",
+      "path": "mods/",
+      "url": "https://launcher.cobbleumbral.fun/mods/entity_texture_features-7.2.5-1.21-fabric.jar",
+      "sha1": "726958e34edf7b424d7254d73d214caeedd15737",
+      "size": 799948,
       "type": "OTHER"
     },
     {
@@ -138,6 +162,14 @@
       "type": "OTHER"
     },
     {
+      "name": "guiaumbral-1.0.0-publico.jar",
+      "path": "mods/",
+      "url": "https://launcher.cobbleumbral.fun/mods/guiaumbral-1.0.0-publico.jar",
+      "sha1": "1b4d73752afa8de2cf6394cb08b1825a2a5b5ddb",
+      "size": 66414,
+      "type": "OTHER"
+    },
+    {
       "name": "iris-fabric-1.8.8+mc1.21.1.jar",
       "path": "mods/",
       "url": "https://launcher.cobbleumbral.fun/mods/iris-fabric-1.8.8%2Bmc1.21.1.jar",
@@ -162,22 +194,6 @@
       "type": "OTHER"
     },
     {
-      "name": "lambdynamiclights-4.8.11+1.21.1.jar",
-      "path": "mods/",
-      "url": "https://launcher.cobbleumbral.fun/mods/lambdynamiclights-4.8.11%2B1.21.1.jar",
-      "sha1": "7b5afc75a094b4e8a7118f9856eec959b10f2422",
-      "size": 2023375,
-      "type": "OTHER"
-    },
-    {
-      "name": "logical_zoom-0.0.26.jar",
-      "path": "mods/",
-      "url": "https://launcher.cobbleumbral.fun/mods/logical_zoom-0.0.26.jar",
-      "sha1": "a37da986e20153a649b0be461c940fe1e9c96a83",
-      "size": 118999,
-      "type": "OTHER"
-    },
-    {
       "name": "lootr-fabric-1.21.1-1.11.38.124.jar",
       "path": "mods/",
       "url": "https://launcher.cobbleumbral.fun/mods/lootr-fabric-1.21.1-1.11.38.124.jar",
@@ -186,19 +202,19 @@
       "type": "OTHER"
     },
     {
-      "name": "lootrmon-fabric-1.21.1-0.0.0.1.jar",
+      "name": "lootrmon-fabric-1.21.1-0.0.0.3.jar",
       "path": "mods/",
-      "url": "https://launcher.cobbleumbral.fun/mods/lootrmon-fabric-1.21.1-0.0.0.1.jar",
-      "sha1": "140d8d8dd08261eb5f1b3e835f6848ca710c3f5a",
-      "size": 118905,
+      "url": "https://launcher.cobbleumbral.fun/mods/lootrmon-fabric-1.21.1-0.0.0.3.jar",
+      "sha1": "a09db5b7dd916f3c7fb9e1da1bd83c04f14ce4d9",
+      "size": 107470,
       "type": "OTHER"
     },
     {
-      "name": "mega_showdown-fabric-1.2.0+1.8.1+1.21.1-release.jar",
+      "name": "mega_showdown-fabric-1.3.1+1.8.2+1.21.1-release.jar",
       "path": "mods/",
-      "url": "https://launcher.cobbleumbral.fun/mods/mega_showdown-fabric-1.2.0%2B1.8.1%2B1.21.1-release.jar",
-      "sha1": "2de9508dacfdc19ec05c8979c5dfe205fc6d7525",
-      "size": 20152218,
+      "url": "https://launcher.cobbleumbral.fun/mods/mega_showdown-fabric-1.3.1%2B1.8.2%2B1.21.1-release.jar",
+      "sha1": "fbb113c49ce448853b1dd28a0c3665608c330434",
+      "size": 20266478,
       "type": "OTHER"
     },
     {
@@ -210,11 +226,11 @@
       "type": "OTHER"
     },
     {
-      "name": "plasmovoice-fabric-1.21.1-2.1.15.jar",
+      "name": "plasmovoice-fabric-1.21.1-2.1.17.jar",
       "path": "mods/",
-      "url": "https://launcher.cobbleumbral.fun/mods/plasmovoice-fabric-1.21.1-2.1.15.jar",
-      "sha1": "a9f0398a5f4a37fa692abb471a84956f2150c9a8",
-      "size": 12353125,
+      "url": "https://launcher.cobbleumbral.fun/mods/plasmovoice-fabric-1.21.1-2.1.17.jar",
+      "sha1": "1465f749d64c0861a5c91ec249167e9a59a6b1c0",
+      "size": 12365966,
       "type": "OTHER"
     },
     {
@@ -223,14 +239,6 @@
       "url": "https://launcher.cobbleumbral.fun/mods/pokeviewapi-client-0.2.0cobblemon1.8.jar",
       "sha1": "c845b3b46cf2280afadb5281716aa1abf612e3bd",
       "size": 70547,
-      "type": "OTHER"
-    },
-    {
-      "name": "SimpleTMs-fabric-2.3.0.jar",
-      "path": "mods/",
-      "url": "https://launcher.cobbleumbral.fun/mods/SimpleTMs-fabric-2.3.0.jar",
-      "sha1": "3730e4fb7db5237acf48dfe8e4b35206838c4ad4",
-      "size": 42733,
       "type": "OTHER"
     },
     {
@@ -250,19 +258,19 @@
       "type": "OTHER"
     },
     {
-      "name": "xaerominimap-fabric-1.21.1-25.3.10.jar",
+      "name": "xaerominimap-fabric-1.21.1-26.6.0.jar",
       "path": "mods/",
-      "url": "https://launcher.cobbleumbral.fun/mods/xaerominimap-fabric-1.21.1-25.3.10.jar",
-      "sha1": "a231fa03625036fb8118a1a5981f22eac54c3597",
-      "size": 2177333,
+      "url": "https://launcher.cobbleumbral.fun/mods/xaerominimap-fabric-1.21.1-26.6.0.jar",
+      "sha1": "5fbb03dd3f22c0c3d5466d1366222d7d277a8df3",
+      "size": 2234556,
       "type": "OTHER"
     },
     {
-      "name": "xaeroworldmap-fabric-1.21.1-1.40.11.jar",
+      "name": "xaeroworldmap-fabric-1.21.1-1.47.0.jar",
       "path": "mods/",
-      "url": "https://launcher.cobbleumbral.fun/mods/xaeroworldmap-fabric-1.21.1-1.40.11.jar",
-      "sha1": "879469ab8b697796219254a097d00ff48cabf3c5",
-      "size": 1413973,
+      "url": "https://launcher.cobbleumbral.fun/mods/xaeroworldmap-fabric-1.21.1-1.47.0.jar",
+      "sha1": "db7ad23fe512dbc13a8286844fd9277c08a7ef5a",
+      "size": 1456162,
       "type": "OTHER"
     },
     {
