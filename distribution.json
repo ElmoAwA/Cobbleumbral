@@ -130,11 +130,11 @@
       "type": "OTHER"
     },
     {
-      "name": "fightorflight-fabric-0.11.0.jar",
+      "name": "fightorflight-fabric-0.11.1.jar",
       "path": "mods/",
-      "url": "https://launcher.cobbleumbral.fun/mods/fightorflight-fabric-0.11.0.jar",
-      "sha1": "d3031a632dc5e4300ce273051ddfe0c2ad64859c",
-      "size": 1446545,
+      "url": "https://launcher.cobbleumbral.fun/mods/fightorflight-fabric-0.11.1.jar",
+      "sha1": "a4228aff3c2494fa8652bc81c88d25e8ace04f1d",
+      "size": 1460721,
       "type": "OTHER"
     },
     {
