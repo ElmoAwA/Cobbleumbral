@@ -282,19 +282,19 @@
       "type": "OTHER"
     },
     {
-      "name": "E19_Cobblemon_Minimap_Icons.zip",
+      "name": "ATM x MSD [v5.0].zip",
       "path": "resourcepacks/",
-      "url": "https://launcher.cobbleumbral.fun/resourcepacks/E19_Cobblemon_Minimap_Icons.zip",
-      "sha1": "77813d38002b43c9c243d694728479bd3879cf86",
-      "size": 23270833,
+      "url": "https://launcher.cobbleumbral.fun/resourcepacks/ATM%20x%20MSD%20%5Bv5.0%5D.zip",
+      "sha1": "a7d2d4a3a40d8c183eed53cc5bb4f279a9a85385",
+      "size": 7744796,
       "type": "OTHER"
     },
     {
-      "name": "ATM_x_MSD_v5.0.zip",
+      "name": "E19 Cobblemon Minimap Icons.zip",
       "path": "resourcepacks/",
-      "url": "https://launcher.cobbleumbral.fun/resourcepacks/ATM_x_MSD_v5.0.zip",
-      "sha1": "a7d2d4a3a40d8c183eed53cc5bb4f279a9a85385",
-      "size": 7744796,
+      "url": "https://launcher.cobbleumbral.fun/resourcepacks/E19%20Cobblemon%20Minimap%20Icons.zip",
+      "sha1": "77813d38002b43c9c243d694728479bd3879cf86",
+      "size": 23270833,
       "type": "OTHER"
     }
   ]
